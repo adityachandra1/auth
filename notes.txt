@@ -1,0 +1,25 @@
+using jwt (json-web-token);
+
+-Some Mongoose properties - https://arunrajeevan.medium.com/-understanding-mongoose-connection-options-2b6e73d96de1
+
+-https://docs.atlas.mongodb.com/troubleshoot-connection/-#special-characters-in-connection-string-password
+
+Auth Routes:
+MVC(Model, view , controller) helps in better organization of code.
+https://dev.to/eaetukudo/understanding-mvc-pattern-in-nodejs-2bdn
+
+/signup GET signup page
+/signup POST create a new user in db
+/login GET login page
+/login POST authenticate a current user 
+
+Schema:
+
+const User = mongoose.model('***user***', userSchema);
+make sure the name of the model is singular (collection = users) 
+
+custom error messages, require: [true, 'Error']
+
+validator package to check a valid email
+
+Error handling and objects
